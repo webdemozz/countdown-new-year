@@ -7,7 +7,7 @@ const newYear = document.querySelector('#new-year')
 
 const now = new Date()
 
-newYear.innerHTML = now.getFullYear() + 1
+newYear.innerHTML = now.getFullYear()
 
 const countToDate = new Date("2025-01-29T00:00:00");
 
